@@ -1,7 +1,7 @@
 import streamlit as st
 import sqlite3
 import pandas as pd
-import matplotlib.pyplot as plt
+
 
 # Função para conectar ao banco de dados SQLite
 def get_connection():
