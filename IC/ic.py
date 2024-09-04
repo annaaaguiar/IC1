@@ -5,7 +5,7 @@ import pandas as pd
 
 # Função para conectar ao banco de dados SQLite
 def get_connection():
-    return sqlite3.connect('bdic.db')
+    return sqlite3.connect('IC/bdic.db')
 
 # Função para obter os nomes das tabelas
 def get_table_names(conn):
